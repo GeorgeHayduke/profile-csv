@@ -1,0 +1,9 @@
+[{  
+    "input_file"        : "s3://afd-sample-bucket/detector_1/abnb_min_50k.csv",
+    "required_features" : {
+        "EVENT_TIMESTAMP" : "event_timestamp",
+        "IP_ADDRESS"      : "ip_address",
+        "EMAIL_ADDRESS"   : "email_address",
+        "FRAUD_LABEL"     : "is_fraud"
+    }
+}]
